@@ -1,0 +1,15 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target ’TuDu’ do
+  pod 'MMDrawerController', '~> 0.5.7'
+  pod 'CVCalendar', '~> 1.4.1'
+  pod 'DownPicker'
+  pod 'DateTimePicker’
+  pod 'DatePickerDialog'
+  pod 'SwiftRecord', :git => 'https://github.com/arkverse/SwiftRecord.git'
+  pod 'SCLAlertView'
+  pod 'UrbanAirship-iOS-SDK'
+end
+
+#link_with ’betterware’

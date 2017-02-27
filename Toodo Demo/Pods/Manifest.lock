@@ -1,0 +1,53 @@
+PODS:
+  - CVCalendar (1.4.1)
+  - DatePickerDialog (1.1.7)
+  - DateTimePicker (1.0.3)
+  - DownPicker (0.1.34)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core (= 0.5.7)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
+    - MMDrawerController/MMDrawerVisualStates (= 0.5.7)
+    - MMDrawerController/Subclass (= 0.5.7)
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - SCLAlertView (0.7.0)
+  - SwiftRecord (0.0.6)
+  - UrbanAirship-iOS-SDK (8.1.4)
+
+DEPENDENCIES:
+  - CVCalendar (~> 1.4.1)
+  - DatePickerDialog
+  - DateTimePicker
+  - DownPicker
+  - MMDrawerController (~> 0.5.7)
+  - SCLAlertView
+  - SwiftRecord (from `https://github.com/arkverse/SwiftRecord.git`)
+  - UrbanAirship-iOS-SDK
+
+EXTERNAL SOURCES:
+  SwiftRecord:
+    :git: https://github.com/arkverse/SwiftRecord.git
+
+CHECKOUT OPTIONS:
+  SwiftRecord:
+    :commit: 9ce19daf77ee2018c0d605ff3939ce9c897a4299
+    :git: https://github.com/arkverse/SwiftRecord.git
+
+SPEC CHECKSUMS:
+  CVCalendar: 61912eb5dc39c3bcfe22a731147a559a696fbc15
+  DatePickerDialog: bd5e7e92e4da2c6a8966b28d5f5d8f335d6c2c63
+  DateTimePicker: 23ca73cee22ff485e9e2fbfa4e4082845ce65e95
+  DownPicker: c00ea63f08ae82116cc93d0eba74e86bf3d4c68e
+  MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  SwiftRecord: f171e483fc63f59f4fe465a5edf51b2e5630425c
+  UrbanAirship-iOS-SDK: 7de973fb241ac358e84fee6afea2057c088a6663
+
+PODFILE CHECKSUM: c95c4283907e14133ac09aacc2cad2b4c06084b8
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11AF2D336A208B9E41489FA557633339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B76E9D3D4C18553702C4E62039732B5 /* Foundation.framework */; };
+		14DE0E4737A03DB711F6A7E60944ED96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B76E9D3D4C18553702C4E62039732B5 /* Foundation.framework */; };
+		1DFE8C2FB813382680FE5EC2CF4B98F1 /* AWSCognitoIdentityProviderASF.h in Headers */ = {isa = PBXBuildFile; fileRef = 9409419AE0DCBF2DF6E3292CC059B168 /* AWSCognitoIdentityProviderASF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C57B7E8A3043745B4B0A6000E1AF626 /* Pods-CognitoAuthSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8C2F995AB72E51341F692330C3FE89 /* Pods-CognitoAuthSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ABDAA3601455D7E0314DA779267194F /* AWSCognitoAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 6029DD978586EFF424D2C3E76200832C /* AWSCognitoAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E807620AC1A36415B43DB6FA3E7333F /* AWSCognitoAuth_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA4FCCF1C02D1AD49BF9840EC95F090 /* AWSCognitoAuth_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		66A9D0506FA5BD5A3BA0FDCC12470444 /* AWSCognitoAuthUICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = A6204A199A92BE89AFC940F34E3D284C /* AWSCognitoAuthUICKeyChainStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		692EFACEBC887C4DBD8A2D30B601D00E /* AWSCognitoIdentityProviderASF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5752DED296E7EFA9067626ECAFD587A0 /* AWSCognitoIdentityProviderASF.m */; };
+		69C1B20A7B249B8F6D1BB97600A9A71E /* AWSCognitoIdentityProviderASF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B62824F8618CE10B886F9C4489421FAD /* AWSCognitoIdentityProviderASF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81372E45DF3A2C0BDCB870674324B98E /* AWSCognitoIdentityProviderASF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C56CEC27F2C8367BFA0E2EAE74A436E /* AWSCognitoIdentityProviderASF.framework */; };
+		8EA3D9BF81C9C0C15F9B88635F061B39 /* AWSCognitoIdentityProviderASF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 132B188623A4AD65B88F8DDF12702F86 /* AWSCognitoIdentityProviderASF-dummy.m */; };
+		9A99BEEB1B5862F921E51818F0FB1275 /* AWSCognitoAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DB1779EF917D584BE4CF93FA5C49F2 /* AWSCognitoAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7CFDCFD0784B16FF13B9FD16A4D5EB9 /* AWSCognitoAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FEC59A61AC06EDC0FEC04008D58E7E /* AWSCognitoAuth.m */; };
+		AD60D3439751E03BB53B887065B40137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B76E9D3D4C18553702C4E62039732B5 /* Foundation.framework */; };
+		AF0750011644D3DC6886A9E5EB4B463D /* AWSCognitoIdentityASF.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D054A637060F1C7AE42846FD2CB98A /* AWSCognitoIdentityASF.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B0DD6D5DBCF0B2423CBE8C98C14D7AF3 /* AWSCognitoAuthUICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6084524CD3F10AF593ECDE00FF170EEF /* AWSCognitoAuthUICKeyChainStore.m */; };
+		BEEEB2D227297B12178F1A71A8526EE0 /* Pods-CognitoAuthSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D7612D092441D0A1C3B240400FA242 /* Pods-CognitoAuthSample-dummy.m */; };
+		EADE0C2199F70D506B3ACF723742944D /* AWSCognitoAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC59CF21881FD074CB0866FDCDE21F5 /* AWSCognitoAuth-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		692A8FB0703D622B9B34C88F04B16141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7240014B04294496AC4900AEA09525;
+			remoteInfo = AWSCognitoAuth;
+		};
+		B4A24C15C5CFE8CCAECD62CD470C8C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4616BA39CA8F8CD4A9763E0E86664348;
+			remoteInfo = AWSCognitoIdentityProviderASF;
+		};
+		C72FEED3FB41BAD8879965FF2B5D421F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4616BA39CA8F8CD4A9763E0E86664348;
+			remoteInfo = AWSCognitoIdentityProviderASF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		132B188623A4AD65B88F8DDF12702F86 /* AWSCognitoIdentityProviderASF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWSCognitoIdentityProviderASF-dummy.m"; sourceTree = "<group>"; };
+		155A8396B9DA086616F45DE126A1A199 /* Pods-CognitoAuthSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CognitoAuthSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F639AE937F552AEE5D5133E0C9906E5 /* AWSCognitoAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWSCognitoAuth-prefix.pch"; sourceTree = "<group>"; };
+		2D196FF56FEDE34C709D402AFCC471F7 /* AWSCognitoAuth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWSCognitoAuth.xcconfig; sourceTree = "<group>"; };
+		314E636F64C7DA4E31438007963784A9 /* Pods-CognitoAuthSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CognitoAuthSample-frameworks.sh"; sourceTree = "<group>"; };
+		3C43C48CB141F0D5AA3AE4DF55EA384E /* Pods-CognitoAuthSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CognitoAuthSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		40CEC50353F7E8EBCBC7F84A3F9BAD05 /* libAWSCognitoIdentityProviderASFBinary.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libAWSCognitoIdentityProviderASFBinary.a; path = AWSCognitoIdentityProviderASF/Internal/libAWSCognitoIdentityProviderASFBinary.a; sourceTree = "<group>"; };
+		4B6D794A73C14D6CB4F4717BA6EC8A7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C56CEC27F2C8367BFA0E2EAE74A436E /* AWSCognitoIdentityProviderASF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSCognitoIdentityProviderASF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		554D1E0BF62663A4F13C862F52979C26 /* Pods-CognitoAuthSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CognitoAuthSample-resources.sh"; sourceTree = "<group>"; };
+		5752DED296E7EFA9067626ECAFD587A0 /* AWSCognitoIdentityProviderASF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCognitoIdentityProviderASF.m; path = AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.m; sourceTree = "<group>"; };
+		5867CDA0375D1154F9FE8C8E972C8B5B /* AWSCognitoIdentityProviderASF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWSCognitoIdentityProviderASF.modulemap; sourceTree = "<group>"; };
+		5BC59CF21881FD074CB0866FDCDE21F5 /* AWSCognitoAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWSCognitoAuth-dummy.m"; sourceTree = "<group>"; };
+		5DA4FCCF1C02D1AD49BF9840EC95F090 /* AWSCognitoAuth_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoAuth_Internal.h; path = AWSCognitoAuth/Internal/AWSCognitoAuth_Internal.h; sourceTree = "<group>"; };
+		6029DD978586EFF424D2C3E76200832C /* AWSCognitoAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoAuth.h; path = AWSCognitoAuth/AWSCognitoAuth.h; sourceTree = "<group>"; };
+		6084524CD3F10AF593ECDE00FF170EEF /* AWSCognitoAuthUICKeyChainStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCognitoAuthUICKeyChainStore.m; path = AWSCognitoAuth/Internal/UICKeyChainStore/AWSCognitoAuthUICKeyChainStore.m; sourceTree = "<group>"; };
+		6B76E9D3D4C18553702C4E62039732B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77D9ACCEA3E2EBD4AC68631385214934 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACDBF94B49C0E3D170531BCBCBFFB6D /* Pods-CognitoAuthSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CognitoAuthSample.release.xcconfig"; sourceTree = "<group>"; };
+		89E129FE937028D0D5418D695D737968 /* Pods_CognitoAuthSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CognitoAuthSample.framework; path = "Pods-CognitoAuthSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8C2F995AB72E51341F692330C3FE89 /* Pods-CognitoAuthSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CognitoAuthSample-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9409419AE0DCBF2DF6E3292CC059B168 /* AWSCognitoIdentityProviderASF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoIdentityProviderASF.h; path = AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.h; sourceTree = "<group>"; };
+		A0C5F7DE5BDB3A685F3963E424A4D72B /* AWSCognitoIdentityProviderASF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AWSCognitoIdentityProviderASF.framework; path = AWSCognitoIdentityProviderASF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6204A199A92BE89AFC940F34E3D284C /* AWSCognitoAuthUICKeyChainStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoAuthUICKeyChainStore.h; path = AWSCognitoAuth/Internal/UICKeyChainStore/AWSCognitoAuthUICKeyChainStore.h; sourceTree = "<group>"; };
+		A8D7612D092441D0A1C3B240400FA242 /* Pods-CognitoAuthSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CognitoAuthSample-dummy.m"; sourceTree = "<group>"; };
+		B102FA8ABCD3A48949B85E2BFAACFCFF /* AWSCognitoIdentityProviderASF.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWSCognitoIdentityProviderASF.xcconfig; sourceTree = "<group>"; };
+		B62824F8618CE10B886F9C4489421FAD /* AWSCognitoIdentityProviderASF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWSCognitoIdentityProviderASF-umbrella.h"; sourceTree = "<group>"; };
+		B787500E4D60F760A746C89E3B8093B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DB1779EF917D584BE4CF93FA5C49F2 /* AWSCognitoAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWSCognitoAuth-umbrella.h"; sourceTree = "<group>"; };
+		C5EB72155D1EFE9BE0EF533DB43F4101 /* Pods-CognitoAuthSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CognitoAuthSample.modulemap"; sourceTree = "<group>"; };
+		D4E5776D0FF8AB7AEC0F14196538010B /* AWSCognitoAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AWSCognitoAuth.framework; path = AWSCognitoAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FEC59A61AC06EDC0FEC04008D58E7E /* AWSCognitoAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCognitoAuth.m; path = AWSCognitoAuth/AWSCognitoAuth.m; sourceTree = "<group>"; };
+		DD74724FEB00725074DDCC499CA56CA6 /* Pods-CognitoAuthSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CognitoAuthSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D054A637060F1C7AE42846FD2CB98A /* AWSCognitoIdentityASF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoIdentityASF.h; path = AWSCognitoIdentityProviderASF/Internal/AWSCognitoIdentityASF.h; sourceTree = "<group>"; };
+		EA5E083F26851C9585BF20166A9747AA /* AWSCognitoIdentityProviderASF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWSCognitoIdentityProviderASF-prefix.pch"; sourceTree = "<group>"; };
+		F53CEA53DD9CE218D182F7D1157B657D /* AWSCognitoAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWSCognitoAuth.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FEB03E2FB7D53F87FACB85CE140938B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81372E45DF3A2C0BDCB870674324B98E /* AWSCognitoIdentityProviderASF.framework in Frameworks */,
+				11AF2D336A208B9E41489FA557633339 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405CB820A2E80FCA83D7E9165EE673A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60D3439751E03BB53B887065B40137 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA5E3C65EC20B35F33FC7531E602644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE0E4737A03DB711F6A7E60944ED96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06ACCCB29A9B5C9E8B43398547E811DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F71D08338AFCBAB6E21A2D31CDE9AFD /* AWSCognitoAuth */,
+				2317ED55E5BB549E95BB1CDEFA50562C /* AWSCognitoIdentityProviderASF */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		08B2F796B91988F114DCC752648504D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5867CDA0375D1154F9FE8C8E972C8B5B /* AWSCognitoIdentityProviderASF.modulemap */,
+				B102FA8ABCD3A48949B85E2BFAACFCFF /* AWSCognitoIdentityProviderASF.xcconfig */,
+				132B188623A4AD65B88F8DDF12702F86 /* AWSCognitoIdentityProviderASF-dummy.m */,
+				EA5E083F26851C9585BF20166A9747AA /* AWSCognitoIdentityProviderASF-prefix.pch */,
+				B62824F8618CE10B886F9C4489421FAD /* AWSCognitoIdentityProviderASF-umbrella.h */,
+				B787500E4D60F760A746C89E3B8093B5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AWSCognitoIdentityProviderASF";
+			sourceTree = "<group>";
+		};
+		2317ED55E5BB549E95BB1CDEFA50562C /* AWSCognitoIdentityProviderASF */ = {
+			isa = PBXGroup;
+			children = (
+				E1D054A637060F1C7AE42846FD2CB98A /* AWSCognitoIdentityASF.h */,
+				9409419AE0DCBF2DF6E3292CC059B168 /* AWSCognitoIdentityProviderASF.h */,
+				5752DED296E7EFA9067626ECAFD587A0 /* AWSCognitoIdentityProviderASF.m */,
+				AE7220F8B75DF4AE12B2734FC087C2AD /* Frameworks */,
+				08B2F796B91988F114DCC752648504D0 /* Support Files */,
+			);
+			name = AWSCognitoIdentityProviderASF;
+			path = AWSCognitoIdentityProviderASF;
+			sourceTree = "<group>";
+		};
+		33DF3C7A7E236EF5BE700335EB69AB95 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				544CD467FD04CEFF6F32C590FBAF329E /* Pods-CognitoAuthSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		48F22F4086B3495C0D3B731C4273B851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4E5776D0FF8AB7AEC0F14196538010B /* AWSCognitoAuth.framework */,
+				A0C5F7DE5BDB3A685F3963E424A4D72B /* AWSCognitoIdentityProviderASF.framework */,
+				89E129FE937028D0D5418D695D737968 /* Pods_CognitoAuthSample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		544CD467FD04CEFF6F32C590FBAF329E /* Pods-CognitoAuthSample */ = {
+			isa = PBXGroup;
+			children = (
+				77D9ACCEA3E2EBD4AC68631385214934 /* Info.plist */,
+				C5EB72155D1EFE9BE0EF533DB43F4101 /* Pods-CognitoAuthSample.modulemap */,
+				155A8396B9DA086616F45DE126A1A199 /* Pods-CognitoAuthSample-acknowledgements.markdown */,
+				3C43C48CB141F0D5AA3AE4DF55EA384E /* Pods-CognitoAuthSample-acknowledgements.plist */,
+				A8D7612D092441D0A1C3B240400FA242 /* Pods-CognitoAuthSample-dummy.m */,
+				314E636F64C7DA4E31438007963784A9 /* Pods-CognitoAuthSample-frameworks.sh */,
+				554D1E0BF62663A4F13C862F52979C26 /* Pods-CognitoAuthSample-resources.sh */,
+				8C8C2F995AB72E51341F692330C3FE89 /* Pods-CognitoAuthSample-umbrella.h */,
+				DD74724FEB00725074DDCC499CA56CA6 /* Pods-CognitoAuthSample.debug.xcconfig */,
+				7ACDBF94B49C0E3D170531BCBCBFFB6D /* Pods-CognitoAuthSample.release.xcconfig */,
+			);
+			name = "Pods-CognitoAuthSample";
+			path = "Target Support Files/Pods-CognitoAuthSample";
+			sourceTree = "<group>";
+		};
+		5F71D08338AFCBAB6E21A2D31CDE9AFD /* AWSCognitoAuth */ = {
+			isa = PBXGroup;
+			children = (
+				6029DD978586EFF424D2C3E76200832C /* AWSCognitoAuth.h */,
+				D7FEC59A61AC06EDC0FEC04008D58E7E /* AWSCognitoAuth.m */,
+				5DA4FCCF1C02D1AD49BF9840EC95F090 /* AWSCognitoAuth_Internal.h */,
+				A6204A199A92BE89AFC940F34E3D284C /* AWSCognitoAuthUICKeyChainStore.h */,
+				6084524CD3F10AF593ECDE00FF170EEF /* AWSCognitoAuthUICKeyChainStore.m */,
+				813DC1538247308CD6B54C06E11CB95B /* Support Files */,
+			);
+			name = AWSCognitoAuth;
+			path = AWSCognitoAuth;
+			sourceTree = "<group>";
+		};
+		6E935FF14DA79A507B50899ACDEB99EE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B76E9D3D4C18553702C4E62039732B5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BD0F264F7D7B7B37B84A5B5CBC4D4300 /* Frameworks */,
+				06ACCCB29A9B5C9E8B43398547E811DB /* Pods */,
+				48F22F4086B3495C0D3B731C4273B851 /* Products */,
+				33DF3C7A7E236EF5BE700335EB69AB95 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		813DC1538247308CD6B54C06E11CB95B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F53CEA53DD9CE218D182F7D1157B657D /* AWSCognitoAuth.modulemap */,
+				2D196FF56FEDE34C709D402AFCC471F7 /* AWSCognitoAuth.xcconfig */,
+				5BC59CF21881FD074CB0866FDCDE21F5 /* AWSCognitoAuth-dummy.m */,
+				1F639AE937F552AEE5D5133E0C9906E5 /* AWSCognitoAuth-prefix.pch */,
+				C5DB1779EF917D584BE4CF93FA5C49F2 /* AWSCognitoAuth-umbrella.h */,
+				4B6D794A73C14D6CB4F4717BA6EC8A7F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AWSCognitoAuth";
+			sourceTree = "<group>";
+		};
+		AE7220F8B75DF4AE12B2734FC087C2AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40CEC50353F7E8EBCBC7F84A3F9BAD05 /* libAWSCognitoIdentityProviderASFBinary.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD0F264F7D7B7B37B84A5B5CBC4D4300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C56CEC27F2C8367BFA0E2EAE74A436E /* AWSCognitoIdentityProviderASF.framework */,
+				6E935FF14DA79A507B50899ACDEB99EE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		99E5830041F78DFF92FD210B65E7D0A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C57B7E8A3043745B4B0A6000E1AF626 /* Pods-CognitoAuthSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA936DAFEF574A02A29C7642795BEF68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0750011644D3DC6886A9E5EB4B463D /* AWSCognitoIdentityASF.h in Headers */,
+				69C1B20A7B249B8F6D1BB97600A9A71E /* AWSCognitoIdentityProviderASF-umbrella.h in Headers */,
+				1DFE8C2FB813382680FE5EC2CF4B98F1 /* AWSCognitoIdentityProviderASF.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7554DC18B4DC868270A7D4CC3FD7685 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A99BEEB1B5862F921E51818F0FB1275 /* AWSCognitoAuth-umbrella.h in Headers */,
+				3ABDAA3601455D7E0314DA779267194F /* AWSCognitoAuth.h in Headers */,
+				4E807620AC1A36415B43DB6FA3E7333F /* AWSCognitoAuth_Internal.h in Headers */,
+				66A9D0506FA5BD5A3BA0FDCC12470444 /* AWSCognitoAuthUICKeyChainStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F7240014B04294496AC4900AEA09525 /* AWSCognitoAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DE127C325D4236120430C3D196C050 /* Build configuration list for PBXNativeTarget "AWSCognitoAuth" */;
+			buildPhases = (
+				F7554DC18B4DC868270A7D4CC3FD7685 /* Headers */,
+				D6ACDC9CDBAD01BA4E013BB3A5BC7D23 /* Sources */,
+				0FEB03E2FB7D53F87FACB85CE140938B /* Frameworks */,
+				6C86934656579558EB1C29CB14AFE657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				257A367C6B54855B1300F4A512B9351C /* PBXTargetDependency */,
+			);
+			name = AWSCognitoAuth;
+			productName = AWSCognitoAuth;
+			productReference = D4E5776D0FF8AB7AEC0F14196538010B /* AWSCognitoAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FFDBAB9818CF2719ADA4573D87A969C /* Pods-CognitoAuthSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCA0045695AE90CC8B796329680360E /* Build configuration list for PBXNativeTarget "Pods-CognitoAuthSample" */;
+			buildPhases = (
+				99E5830041F78DFF92FD210B65E7D0A6 /* Headers */,
+				F76A06979ED8CDF86CBB6A9EF70D6079 /* Sources */,
+				405CB820A2E80FCA83D7E9165EE673A9 /* Frameworks */,
+				98E8350CC10B841FEC1E31558A82968D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4593DD58123A83AF3A390A6ED3C40632 /* PBXTargetDependency */,
+				EC710D5FA4E30B11D5005F6565A5C9AD /* PBXTargetDependency */,
+			);
+			name = "Pods-CognitoAuthSample";
+			productName = "Pods-CognitoAuthSample";
+			productReference = 89E129FE937028D0D5418D695D737968 /* Pods_CognitoAuthSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4616BA39CA8F8CD4A9763E0E86664348 /* AWSCognitoIdentityProviderASF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527AAD17D64CC610210F23A6B4CCE17B /* Build configuration list for PBXNativeTarget "AWSCognitoIdentityProviderASF" */;
+			buildPhases = (
+				BA936DAFEF574A02A29C7642795BEF68 /* Headers */,
+				4A8341A46721153D18FD64308BA9E911 /* Sources */,
+				DAA5E3C65EC20B35F33FC7531E602644 /* Frameworks */,
+				36AA116F5BA80A73E7B6074989791D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWSCognitoIdentityProviderASF;
+			productName = AWSCognitoIdentityProviderASF;
+			productReference = A0C5F7DE5BDB3A685F3963E424A4D72B /* AWSCognitoIdentityProviderASF.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 48F22F4086B3495C0D3B731C4273B851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F7240014B04294496AC4900AEA09525 /* AWSCognitoAuth */,
+				4616BA39CA8F8CD4A9763E0E86664348 /* AWSCognitoIdentityProviderASF */,
+				3FFDBAB9818CF2719ADA4573D87A969C /* Pods-CognitoAuthSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36AA116F5BA80A73E7B6074989791D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C86934656579558EB1C29CB14AFE657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E8350CC10B841FEC1E31558A82968D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A8341A46721153D18FD64308BA9E911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA3D9BF81C9C0C15F9B88635F061B39 /* AWSCognitoIdentityProviderASF-dummy.m in Sources */,
+				692EFACEBC887C4DBD8A2D30B601D00E /* AWSCognitoIdentityProviderASF.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ACDC9CDBAD01BA4E013BB3A5BC7D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADE0C2199F70D506B3ACF723742944D /* AWSCognitoAuth-dummy.m in Sources */,
+				A7CFDCFD0784B16FF13B9FD16A4D5EB9 /* AWSCognitoAuth.m in Sources */,
+				B0DD6D5DBCF0B2423CBE8C98C14D7AF3 /* AWSCognitoAuthUICKeyChainStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76A06979ED8CDF86CBB6A9EF70D6079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEEB2D227297B12178F1A71A8526EE0 /* Pods-CognitoAuthSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		257A367C6B54855B1300F4A512B9351C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWSCognitoIdentityProviderASF;
+			target = 4616BA39CA8F8CD4A9763E0E86664348 /* AWSCognitoIdentityProviderASF */;
+			targetProxy = B4A24C15C5CFE8CCAECD62CD470C8C93 /* PBXContainerItemProxy */;
+		};
+		4593DD58123A83AF3A390A6ED3C40632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWSCognitoAuth;
+			target = 0F7240014B04294496AC4900AEA09525 /* AWSCognitoAuth */;
+			targetProxy = 692A8FB0703D622B9B34C88F04B16141 /* PBXContainerItemProxy */;
+		};
+		EC710D5FA4E30B11D5005F6565A5C9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWSCognitoIdentityProviderASF;
+			target = 4616BA39CA8F8CD4A9763E0E86664348 /* AWSCognitoIdentityProviderASF */;
+			targetProxy = C72FEED3FB41BAD8879965FF2B5D421F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		005901C60EA6BC0073BFA1793A5D32CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D196FF56FEDE34C709D402AFCC471F7 /* AWSCognitoAuth.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AWSCognitoAuth/AWSCognitoAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AWSCognitoAuth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AWSCognitoAuth/AWSCognitoAuth.modulemap";
+				PRODUCT_MODULE_NAME = AWSCognitoAuth;
+				PRODUCT_NAME = AWSCognitoAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		378A30DB29AA8F1068972347A283F1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACDBF94B49C0E3D170531BCBCBFFB6D /* Pods-CognitoAuthSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CognitoAuthSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CognitoAuthSample/Pods-CognitoAuthSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7F43ABB6C94D17119B8C191F84BD0205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D196FF56FEDE34C709D402AFCC471F7 /* AWSCognitoAuth.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AWSCognitoAuth/AWSCognitoAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AWSCognitoAuth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AWSCognitoAuth/AWSCognitoAuth.modulemap";
+				PRODUCT_MODULE_NAME = AWSCognitoAuth;
+				PRODUCT_NAME = AWSCognitoAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F45611821270D9B5B01732A7AF4503A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B102FA8ABCD3A48949B85E2BFAACFCFF /* AWSCognitoIdentityProviderASF.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AWSCognitoIdentityProviderASF/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.modulemap";
+				PRODUCT_MODULE_NAME = AWSCognitoIdentityProviderASF;
+				PRODUCT_NAME = AWSCognitoIdentityProviderASF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA29ADCB815CFCDCC5D83AF565A3A447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B102FA8ABCD3A48949B85E2BFAACFCFF /* AWSCognitoIdentityProviderASF.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AWSCognitoIdentityProviderASF/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.modulemap";
+				PRODUCT_MODULE_NAME = AWSCognitoIdentityProviderASF;
+				PRODUCT_NAME = AWSCognitoIdentityProviderASF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE9028836F2A5243F92636632477685B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD74724FEB00725074DDCC499CA56CA6 /* Pods-CognitoAuthSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CognitoAuthSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CognitoAuthSample/Pods-CognitoAuthSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09DE127C325D4236120430C3D196C050 /* Build configuration list for PBXNativeTarget "AWSCognitoAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F43ABB6C94D17119B8C191F84BD0205 /* Debug */,
+				005901C60EA6BC0073BFA1793A5D32CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCA0045695AE90CC8B796329680360E /* Build configuration list for PBXNativeTarget "Pods-CognitoAuthSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9028836F2A5243F92636632477685B /* Debug */,
+				378A30DB29AA8F1068972347A283F1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527AAD17D64CC610210F23A6B4CCE17B /* Build configuration list for PBXNativeTarget "AWSCognitoIdentityProviderASF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F45611821270D9B5B01732A7AF4503A /* Debug */,
+				DA29ADCB815CFCDCC5D83AF565A3A447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

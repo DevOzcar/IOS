@@ -1,0 +1,20 @@
+PODS:
+  - AWSCognitoAuth (2.8.4):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+
+DEPENDENCIES:
+  - AWSCognitoAuth (~> 2.8.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSCognitoAuth
+    - AWSCognitoIdentityProviderASF
+
+SPEC CHECKSUMS:
+  AWSCognitoAuth: e96b8b4bb6b6c0a340cdcf2de5722a692144d157
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+
+PODFILE CHECKSUM: 679e4cab2ff992e1c45f276f7932cfa543fcf722
+
+COCOAPODS: 1.5.3
